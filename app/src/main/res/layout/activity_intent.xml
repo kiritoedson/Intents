@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edson.practica01.IntentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/etxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Escribe"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etxt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Mensaje Email"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/Web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_web" />
+
+            <Button
+                android:id="@+id/openPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_tel" />
+
+            <Button
+                android:id="@+id/callPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_call" />
+
+            <Button
+                android:id="@+id/sendMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_mail" />
+
+            <Button
+                android:id="@+id/sendSms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_sms" />
+
+            <Button
+                android:id="@+id/Maps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_maps" />
+
+            <Button
+                android:id="@+id/alarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_alarm" />
+
+            <Button
+                android:id="@+id/camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_camera" />
+
+            <Button
+                android:id="@+id/Calendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_calendar" />
+
+            <Button
+                android:id="@+id/Temporizador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_temporizador" />
+
+            <Button
+                android:id="@+id/Video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_video" />
+
+            <Button
+                android:id="@+id/Google"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/int_google" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
